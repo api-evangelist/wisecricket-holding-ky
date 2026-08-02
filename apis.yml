@@ -1,8 +1,24 @@
 aid: wisecricket-holding-ky
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wisecricket-holding-ky.png
 name: WISECRICKET HOLDING KY
-description: WISECRICKET HOLDING KY is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: WiseCricket (WISECRICKET HOLDING KY) offers AI-powered fiscal and accounting
+  audit software for businesses ("Software de Auditoria Fiscal y Contable con IA para
+  Empresas"). The Spanish-language platform applies artificial intelligence to tax
+  and accounting compliance, helping companies automate financial and tax audits and
+  surface issues. It was surfaced as a 500 Global portfolio company and added to the
+  API Evangelist network as a stub; enrichment found a marketing landing page but no
+  public developer API, documentation, developer portal, or well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/wisecricket-holding-ky/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Tax
+- Accounting
+- Audit
+- Artificial Intelligence
+- Compliance
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wisecricket-holding-ky-domain-security.yml
 - type: Website
   url: https://wisecricket.ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
